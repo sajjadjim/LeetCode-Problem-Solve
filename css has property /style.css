@@ -1,0 +1,30 @@
+ul{
+    list-style-type: disc;
+    border: 2px solid black;
+    padding: 10 px 10px 20px 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+li:has(> :not(:empty)) {
+    color: green;
+}
+li{
+    color: rgb(29, 175, 60);
+    /* text-transform: uppercase; */
+    cursor:pointer;
+    scroll-behavior: smooth;
+}
+li:empty {
+    display: none;
+}
