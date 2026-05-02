@@ -1,0 +1,12 @@
+.bottle-body{
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.bottle-details{
+    display: flex;
+}

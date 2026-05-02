@@ -1,0 +1,8 @@
+.visited-card{
+    background-color: rgb(172, 165, 114);
+    box-shadow: 5px 5px 5px rgb(172, 165, 114);
+    color: black;
+}
+.button-color{
+    color: white;
+}
